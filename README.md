@@ -1,38 +1,89 @@
-# Senritsu no Stratus - Patch Français
+# Senritsu no Stratus – English & French patch / Patch anglais et français
 
-Patch de traduction française pour **Senritsu no Stratus** sur PSP.
+**English** | [Français](#français)
 
-Ce projet a pour objectif de rendre le jeu entièrement jouable en français, avec la traduction des textes, de l'interface et des sous-titres des cinématiques animées.
+---
 
-## État du projet
+## English
 
-**Jouable, mais encore en développement.**
+English and French translation patches for **Senritsu no Stratus** (戦律のストラタス) on PSP (NPJH50467).
 
-La traduction couvre actuellement l'ensemble du jeu, mais le patch est loin d'être parfait. Il peut rester des erreurs de traduction, des fautes, des problèmes de mise en page ou certains éléments qui nécessitent encore des corrections.
+### Status
 
-Le projet est donc considéré comme une version de travail plutôt qu'une traduction définitive.
+**Version 1.0: complete.**
 
-## Contenu traduit
+The whole game is translated and playable from start to finish, in English or in French. Both patches have been tested and corrected. Some mistakes may still be left: if you find one, please report it.
 
-* Textes du jeu
-* Dialogues
-* Menus
-* Interface et HUD
-* Éléments graphiques de l'interface
+### What's translated
+
+* Dialogue and all in-game text
+* Menus, interface and HUD
+* Graphical elements containing text (menus, encyclopedia, title screen, etc.)
+* Subtitles for the animated cutscenes
+* Subtitles for the in-engine 3D cutscenes
+
+### Installation
+
+The patches are provided as **xdelta** files and must be applied to an original Senritsu no Stratus ISO.
+
+#### Requirements
+
+* A legal copy of the original Japanese ISO of the game
+  (`1 255 342 080` bytes, MD5 `05ce8adc3fac075bdac0b8b3aa6c735d`)
+* The `.xdelta` file of the language you want (English or French)
+* An xdelta patching tool (xdelta UI, Delta Patcher, UniPatcher...)
+
+#### Applying the patch
+
+1. Put your original ISO in a folder.
+2. Open your xdelta patching tool.
+3. Select the `.xdelta` file as the patch.
+4. Select your original ISO as the source file.
+5. Choose the name and location of the patched ISO.
+6. Start the patching process.
+7. Play the patched ISO in your PSP emulator.
+
+Tested on PPSSPP only, not on a real PSP.
+
+### Credits
+
+* Translation and patch: **ChefBanXIII**, made with the help of Claude (Anthropic's AI)
+* Japanese audio check for the cutscenes: **Onoskal**
+
+Senritsu no Stratus © 2011 Konami Digital Entertainment. This is a fan translation, not affiliated with Konami.
+
+---
+
+## Français
+
+Patchs de traduction anglaise et française pour **Senritsu no Stratus** (戦律のストラタス) sur PSP (NPJH50467).
+
+### État du projet
+
+**Version 1.0 : terminée.**
+
+Tout le jeu est traduit et jouable du début à la fin, en anglais ou en français. Les deux patchs ont été testés et corrigés. Il peut encore rester quelques erreurs : si vous en trouvez une, n'hésitez pas à la signaler.
+
+### Contenu traduit
+
+* Dialogues et tous les textes du jeu
+* Menus, interface et HUD
+* Éléments graphiques contenant du texte (menus, encyclopédie, écran titre, etc.)
 * Sous-titres des cinématiques animées
-* Divers éléments graphiques contenant du texte
+* Sous-titres des cinématiques 3D
 
-## Installation
+### Installation
 
-Le patch est fourni au format **xdelta** et doit être appliqué à une ISO originale de Senritsu no Stratus.
+Les patchs sont fournis au format **xdelta** et doivent être appliqués à une ISO originale de Senritsu no Stratus.
 
-### Prérequis
+#### Prérequis
 
-* Une copie légale de l'ISO originale du jeu
-* Le fichier `.xdelta` fourni dans ce dépôt
-* Un logiciel permettant d'appliquer les patchs xdelta
+* Une copie légale de l'ISO japonaise originale du jeu
+  (`1 255 342 080` octets, MD5 `05ce8adc3fac075bdac0b8b3aa6c735d`)
+* Le fichier `.xdelta` de la langue voulue (anglais ou français)
+* Un logiciel permettant d'appliquer les patchs xdelta (xdelta UI, Delta Patcher, UniPatcher...)
 
-### Application du patch
+#### Application du patch
 
 1. Placez votre ISO originale dans un dossier.
 2. Ouvrez votre logiciel de patch xdelta.
@@ -40,20 +91,13 @@ Le patch est fourni au format **xdelta** et doit être appliqué à une ISO orig
 4. Sélectionnez votre ISO originale comme fichier source.
 5. Choisissez le nom et l'emplacement de l'ISO de sortie.
 6. Lancez le processus de patch.
-7. Utilisez ensuite l'ISO patchée avec votre émulateur PSP, je n'ai pas testé sur une PSP.
+7. Utilisez ensuite l'ISO patchée avec votre émulateur PSP.
 
-## État de la traduction
+Testé uniquement sur PPSSPP, pas sur une vraie PSP.
 
-La traduction est suffisamment avancée pour permettre de jouer au jeu en français du début à la fin, mais certains problèmes peuvent encore être présents.
+### Crédits
 
-Les corrections futures pourront notamment concerner :
+* Traduction et patch : **ChefBanXIII**, avec l'aide de Claude (l'IA d'Anthropic)
+* Vérification de l'audio japonais des cinématiques : **Onoskal**
 
-* fautes d'orthographe et de grammaire
-* formulations
-* cohérence des termes
-* problèmes d'affichage
-* textes trop longs
-* éléments graphiques
-* sous-titres
-* éventuels bugs liés au patch
-
+Senritsu no Stratus © 2011 Konami Digital Entertainment. Ceci est une traduction de fans, sans lien avec Konami.
