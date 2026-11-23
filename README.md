@@ -10,7 +10,7 @@ English and French translation patches for **Senritsu no Stratus** (戦律のス
 
 ### Status
 
-**Version 1.0: complete.**
+**Version 1.0.1: complete.**
 
 The whole game is translated and playable from start to finish, in English or in French. Both patches have been tested and corrected. Some mistakes may still be left: if you find one, please report it.
 
@@ -60,7 +60,7 @@ Patchs de traduction anglaise et française pour **Senritsu no Stratus** (戦律
 
 ### État du projet
 
-**Version 1.0 : terminée.**
+**Version 1.0.1 : terminée.**
 
 Tout le jeu est traduit et jouable du début à la fin, en anglais ou en français. Les deux patchs ont été testés et corrigés. Il peut encore rester quelques erreurs : si vous en trouvez une, n'hésitez pas à la signaler.
 
